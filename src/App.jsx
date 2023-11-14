@@ -7,6 +7,7 @@ import Titulo from './Titulo'
 import Button from './boton'
 import Navbar from './navbar'
 import Imagen from './Imagen'
+import BasicExample from './Card'
 
 function App() {
   //iniciar unn estado
@@ -27,6 +28,8 @@ function App() {
    
   return (
     <>
+
+    <BasicExample/>
     <button onClick={() => setCont(cont + 1)}>{cont}</button>
     <Children title={title} content={content} sum={funSum}/>
 
