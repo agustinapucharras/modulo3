@@ -1,10 +1,10 @@
-import fotocielo from './assets/fotocielo.jpg'
+import logo from './assets/logo.png'
 
 function Imagen(){
     return(
         <>
-        <div>Imagen</div>
-        <img src={fotocielo} alt="/" />
+        <img src={logo} alt="/" />
+
         </>
     )
 }
